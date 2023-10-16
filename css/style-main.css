@@ -6609,7 +6609,12 @@ blockquote p {
   }  /* text-align: right; */
   }
 
+
+  footer h5{
+    font-weight: 600;
+  }
   
 }
+
 
 

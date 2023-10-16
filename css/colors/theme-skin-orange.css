@@ -7,7 +7,7 @@ COLOR CODE: #F55E45
 ----------------------------------------- */
 /* text-theme-color */
 .text-theme-colored {
-  color: #F55E45 !important;
+  color: #e74726 !important;
 }
 /* text-hover-theme-color */
 .text-hover-theme-colored:hover {
@@ -15,7 +15,7 @@ COLOR CODE: #F55E45
 }
 /* background-theme-color */
 .bg-theme-colored {
-  background-color: #F55E45 !important;
+  background-color: #e74726 !important;
 }
 /* bg-hover-theme-color */
 .bg-hover-theme-colored:hover {
@@ -36,7 +36,7 @@ COLOR CODE: #F55E45
 }
 /* border-theme-color */
 .border-theme-colored {
-  border-color: #F55E45 !important;
+  border-color: #e74726 !important;
 }
 /* background-color-transparent */
 .bg-theme-colored-transparent {
@@ -267,9 +267,9 @@ fieldset[disabled] .btn-default.btn-theme-colored.focus {
  * -----------------------------------------------
 */
 .btn-border.btn-theme-colored {
-  color: #F55E45;
+  color: #e74726;
   background-color: #fff;
-  border-color: #F55E45;
+  border-color: #e74726;
 }
 .btn-border.btn-theme-colored:focus,
 .btn-border.btn-theme-colored.focus {
@@ -280,7 +280,7 @@ fieldset[disabled] .btn-default.btn-theme-colored.focus {
 .btn-border.btn-theme-colored:hover {
   color: #F55E45;
   background-color: #e6e6e6;
-  border-color: #f02d0d;
+  border-color: #e74726;
 }
 .btn-border.btn-theme-colored:active,
 .btn-border.btn-theme-colored.active,
@@ -582,21 +582,21 @@ fieldset[disabled] .btn-theme-colored.focus {
  * -----------------------------------------------
 */
 .icon-theme-colored a {
-  color: #F55E45;
+  color: #e74726;
 }
 .icon-theme-colored.icon-bordered a {
-  border-color: #F55E45;
+  border-color: #e74726;
 }
 .icon-theme-colored.icon-bordered a:hover {
   background-color: #F55E45;
   color: #fff;
 }
 .icon-theme-colored.icon-dark a {
-  background-color: #F55E45;
+  background-color: #e74726;
   color: #fff;
 }
 .icon-theme-colored.icon-dark a:hover {
-  background-color: #f23415;
+  background-color: #F55E45;
   color: #e6e6e6;
 }
 .icon-theme-colored.icon-dark.icon-bordered a {
