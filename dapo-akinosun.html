@@ -6,8 +6,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="We are one of Nigeria’s leading law firms" />
-<!-- <meta name="keywords" content="building,business,construction,cleaning,transport,workshop" /> -->
+<meta name="description" content="MrLaw - Insurance and Lawyer business template" />
+<meta name="keywords" content="building,business,construction,cleaning,transport,workshop" />
 <meta name="author" content="ThemeMascot" />
 
 <!-- Page Title -->
@@ -21,39 +21,40 @@
 <link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"> -->
 
 <!-- Stylesheet -->
-<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="../css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-<link href="../css/animate.css" rel="stylesheet" type="text/css">
-<link href="../css/css-plugin-collections.css" rel="stylesheet"/>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/css-plugin-collections.css" rel="stylesheet"/>
 <!-- CSS | menuzord megamenu skins -->
-<link id="../menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
+<link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
 <!-- CSS | Main style file -->
-<link href="../css/style-main.css" rel="stylesheet" type="text/css">
+<link href="css/style-main.css" rel="stylesheet" type="text/css">
 <!-- CSS | Theme Color -->
-<link href="../css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
+<link href="css/colors/theme-skin-orange.css" rel="stylesheet" type="text/css">
+<!-- CSS | Preloader Styles -->
+<link href="css/preloader.css" rel="stylesheet" type="text/css">
 <!-- CSS | Custom Margin Padding Collection -->
-<link href="../css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+<link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
-<link href="../css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
 <!-- Revolution Slider 5.x CSS settings -->
-<link  href="../js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
-<link  href="../js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
-<link  href="../js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
-
-
-<!-- Revolution Slider 5.x SCRIPTS -->
-<script src="../js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-<script src="../js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+<link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
+<link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
 <!-- external javascripts -->
-<script src="../js/jquery-2.2.0.min.js"></script>
-<script src="../js/jquery-ui.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <!-- JS | jquery plugin collection for this theme -->
-<script src="../js/jquery-plugin-collection.js"></script>
+<script src="js/jquery-plugin-collection.js"></script>
+
+<!-- Revolution Slider 5.x SCRIPTS -->
+<script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+<script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
 
 
@@ -71,15 +72,20 @@
 <div id="side-panel" class="dark" data-bg-img="http://placehold.it/1920x600">
   <div class="side-panel-wrap">
     <div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon_close font-30"></i></a></div>
-    <a href="../index.html"><img alt="logo" src="../images/scp.png"></a>
+    <a href="javascript:void(0)"><img alt="logo" src="images/scp.png"></a>
     <div class="side-panel-nav mt-30">
       <div class="widget no-border">
         <nav>
           <ul class="nav nav-list">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../our-story.html">Our Story</a></li>
-            <li><a href="../our-team.html">Our Team</a></li>
-            <li><a href="../practice-areas.html">Practice Areas </a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="our-story.html">Our Story</a></li>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a class="tree-toggler nav-header">Practice Areas <i class="fa fa-angle-down"></i></a>
+              <!-- <ul class="nav nav-list tree">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul> -->
             </li>
             <li><a class="tree-toggler nav-header">Resources <i class="fa fa-angle-down"></i></a>
               <ul class="nav nav-list tree">
@@ -89,7 +95,7 @@
                 <li><a href="#">Announcement</a></li>
               </ul>
             </li>
-            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>        
       </div>
@@ -123,48 +129,41 @@
   <!-- Header -->
   <header id="header" class="header">
   <div class="header-nav">
-      <div class="header-nav-wrapper navbar-scrolltofixed bg-lightest" style="height: auto;">
+      <div class="header-nav-wrapper navbar-scrolltofixed bg-lightest">
         <div class="container">
           <nav>
-            <div id="menuzord-right" class="menuzord red"> <a class="menuzord-brand" href="../index.html"><img src="../images/scp4.png" alt="" style="width: 400px;"></a>
+            <div id="menuzord-right" class="menuzord red"> <a class="menuzord-brand" href="javascript:void(0)"><img src="images/scp4.png" alt="" style="width: 400px;"></a>
               <div id="side-panel-trigger" class="side-panel-trigger"><a href="#"><i class="fa fa-bars font-24 text-gray"></i></a></div>
               <ul class="menuzord-menu">
-                <li><a href="../our-story.html">Our Story</a>                  
+                <li><a href="our-story.html">Our Story</a>                  
                 </li>
                 <li><a href="#">Practice Areas</a>
                   <ul class="dropdown">
                     <li><a href="#">Business</a>
                       <ul class="dropdown">
-                        <li><a href="corporate-commercial-finance.html">Corporate Commercial and Finance</a></li>
-                        <li><a href="media-technology.html">Media & Technology </a></li>
-                        <li><a href="energy.html">Energy</a></li>
-                        <li><a href="renewable-energy.html">Renewable Energy</a></li>
-                        <li><a href="projects-transport.html">Projects & Transport</a></li>
-                        <li><a href="labour-employment.html">Labour and Employment</a></li>
-                        <li><a href="competition-law.html">Competition Law</a></li>
-                        <li><a href="mergers-acquisitions.html">Merger and Acquisition</a></li>
-                        <li><a href="environmental-social-governance.html">Environment, Social and Governance</a></li>
-                        <li><a href="taxation.html">Taxation</a></li>
+                        <li><a href="">Corporate Commercial and Finance</a></li>
+                        <li><a href="">Media Tech & </a></li>
+                        <li><a href="">Energy</a></li>
                       </ul>
                     </li>
                     <li><a href="#">Growth</a>
                       <ul class="dropdown">
-                        <li><a href="family-wealth-management.html">Family and Wealth Management</a></li>
-                        <li><a href="sme-aggregated-services.html">SME and Aggregated Services</a></li>
+                        <li><a href="">Family and Wealth Management</a></li>
+                        <li><a href="">SME and Aggregated Services</a></li>
                       </ul>
                     </li>
                     <li><a href="#">Public Sector</a>
                       <ul class="dropdown">
-                        <li><a href="rules-making-policy.html">Rules Making and Policy</a></li>
-                        <li><a href="international-trade.html">International Law</a></li>
-                        <li><a href="public-finance.html">Public Finance</a></li>
+                        <li><a href="">Rules Making and Policy</a></li>
+                        <li><a href="">International Law</a></li>
+                        <li><a href="">Public Finance</a></li>
                       </ul>
                     </li>
                     <li><a href="#">Dispute Resolution</a>
                       <ul class="dropdown">
-                        <li><a href="alternative-dispute-resolution.html">Alternative Dispute Resolution</a></li>
-                        <li><a href="special-tribunal.html">Special Tribuna</a></li>
-                        <li><a href="commercial-civil-litigation.html">Commercial and Civic Litigation</a></li>
+                        <li><a href="">Alternative Dispute Resolution</a></li>
+                        <li><a href="">Special Tribuna</a></li>
+                        <li><a href="">Commercial and Civic Litigation</a></li>
                       </ul>
                     </li>
                     
@@ -173,19 +172,17 @@
                   </ul>
                 </li>
                 
-                <li><a href="../our-team.html">Team</a>
+                <li><a href="our-team.html">Team</a>
                 </li>
                 <li><a href="#">Resources</a>
                   <ul class="dropdown">                   
                     <li><a href="">Publication</a></li>
                     <li><a href="">Annotation</a></li>
                     <li><a href="">SCP Guides</a></li>
-                    <li><a href="">Federal Legislations</a></li>
-                    <li><a href="">SCP Chat</a></li>
                     <li><a href="">Announcement</a></li>
                   </ul>
                 </li>
-                <li><a href="../contact.html">Contact</a>
+                <li><a href="#">Contact</a>
                 </li>
              
               </ul>
@@ -199,7 +196,7 @@
   <!-- Start main-content -->
   <div class="main-content">
     <!-- Section: inner-header -->
-    <section class="inner-header divider layer-overlay overlay-dark" data-bg-img="../images/background/Welcome SCP.png" style='background-image: url("../images/background/Welcome SCP.png");'>
+    <section class="inner-header divider layer-overlay overlay-dark" data-bg-img="images/background/Welcome SCP.png" style='background-image: url("images/background/Welcome SCP.png");'>
       <div class="container pt-30 pb-30">
         <!-- Section Content -->
         <div class="section-content text-center">
@@ -225,7 +222,7 @@
           <div class="row">
             <div class="col-sx-12 col-sm-4 col-md-4 sidebar pull-left">
               <div class="attorney-thumb">
-                <img src="../images/team/Oladapo Akinosun.JPG" alt="">
+                <img src="images/team/Oladapo Akinosun.JPG" alt="">
               </div>
               <div class="attorney-address mt-30">
                 <ul>
@@ -370,96 +367,96 @@
   
   <!-- end main-content -->
   
+  <!-- Footer -->
+  <footer id="footer" class="footer pb-0" data-bg-color="#f8f8f8">
+    <div class="container">
+      <div class="row">
 
+        <div class="col-md-5 col-sm-12">
+          <h5 class="widget-title line-bottom" style="text-transform: uppercase;">Connect With Us</h5><br/>
+                                        
+            <ul class="list-icon theme-colored">
+              <li><i class="fa fa-envelope"></i>info@scp-law.com</p></li>
+              <li><i class="fa fa-phone"></i>+234 701 140 4511, +234 903 071 0071</li>
+              <li><i class="fa fa-location-arrow"></i>9 Rima Street Maitama, Abuja.</li>
+              <li><i class="fa fa-location-arrow"></i>9th Floor, Fortune Towers 27/29, Adeyemo Alakija</li>
+              <li style="padding-left:40px">Street, Lagos, Nigeria</li>
 
-  
+            </ul>
+        </div>
+        
 
-    <!-- Footer -->
-    <footer id="footer" class="footer pb-0" data-bg-color="#f8f8f8">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-5 col-sm-12">
-            <h5 class="widget-title line-bottom" style="text-transform: uppercase;">Connect With Us</h5><br/>
-                                          
-              <ul class="list-icon theme-colored">
-                <li><i class="fa fa-envelope"></i>info@scp-law.com</p></li>
-                <li><i class="fa fa-phone"></i>+234 701 140 4511, +234 903 071 0071</li>
-                <li><i class="fa fa-location-arrow"></i>9 Rima Street Maitama, Abuja.</li>
-                <li><i class="fa fa-location-arrow"></i>9th Floor, Fortune Towers 27/29, Adeyemo Alakija</li>
-                <li style="padding-left:40px">Street, Lagos, Nigeria</li>
-
-              </ul>
+        <div class="col-md-4 col-sm-12">
+          <div class="widget dark">
+            <!-- <h5 class="widget-title">Connect With Us</h5> -->
+            
+            <!-- <p style="color: #8f8f8f;"><b>Email:</b>info@scp-law.com.</p>
+            <p style="color: #8f8f8f;">+234 701 140 4511, +234 903 071 0071.</p> -->
           </div>
-          
+        </div>
 
-          <div class="col-md-4 col-sm-12">
-            <div class="widget dark">
-              <!-- <h5 class="widget-title">Connect With Us</h5> -->
+       
+        <div class="col-sm-3 col-md-3">
+          <div class="widget dark" style="margin-bottom: 10px;">
+            <h5 class="widget-title line-bottom" style="padding-top: 10px;">Resources</h5>
+            <ul class="list theme-colored angle-double-right">
+              <!-- <li><a href="#">Privacy</a></li> -->
+              <li><a href="#">SCP Guides</a></li>
+              <li><a href="#">SCP Chat</a></li>
+              <li><a href="#">Publication</a></li>
+              <li><a href="#">Annotations</a></li>
               
-              <!-- <p style="color: #8f8f8f;"><b>Email:</b>info@scp-law.com.</p>
-              <p style="color: #8f8f8f;">+234 701 140 4511, +234 903 071 0071.</p> -->
-            </div>
-          </div>
-
-         
-          <div class="col-sm-3 col-md-3">
-            <div class="widget dark" style="margin-bottom: 10px;">
-              <h5 class="widget-title line-bottom" style="padding-top: 10px;">Resources</h5>
-              <ul class="list theme-colored angle-double-right">
-                <!-- <li><a href="#">Privacy</a></li> -->
-                <li><a href="#">SCP Guides</a></li>
-                <li><a href="#">SCP Chat</a></li>
-                <li><a href="#">Publication</a></li>
-                <li><a href="#">Annotations</a></li>
-                
-              </ul>
-            </div>
-            <ul class="entry-meta list-inline">
-              <li>
-            <ul class="social-icons theme-colored flat medium list-inline" style="padding-left: 6px;">
-              <li><a href="#"><i class="fa fa-instagram" style="font-size: 20px;"></i></a> </li>
-              <li><a href="#"><i class="fa fa-twitter" style="font-size: 20px;"></i></a> </li>
-              <li><a href="#"><i class="fa fa-linkedin" style="font-size: 20px;"></i></a></li>
-              <li> | </li>
-
-            </ul> 
-          </li>
-              <li class ="privacy" style="font-size: 18px;">  Privacy</li>
             </ul>
           </div>
-          
+          <ul class="entry-meta list-inline">
+            <li>
+          <ul class="social-icons theme-colored flat medium list-inline" style="padding-left: 6px;">
+            <li><a href="#"><i class="fa fa-instagram" style="font-size: 20px;"></i></a> </li>
+            <li><a href="#"><i class="fa fa-twitter" style="font-size: 20px;"></i></a> </li>
+            <li><a href="#"><i class="fa fa-linkedin" style="font-size: 20px;"></i></a></li>
+            <li> | </li>
+
+          </ul> 
+        </li>
+            <li class ="privacy" style="font-size: 18px;">  Privacy</li>
+          </ul>
         </div>
         
       </div>
-      <div class="container-fluid p-20" data-bg-color="#ddd">
-        <div class="row text-center">
-          <div class="col-md-12">
-            <p class="font-14 m-0" data-text-color="#555">Copyright &copy;2023 <a class="font-14" href="#">Techphany</a>. All Rights Reserved</p>
-          </div>
+      
+    </div>
+    <div class="container-fluid p-20" data-bg-color="#ddd">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <p class="font-14 m-0" data-text-color="#555">Copyright &copy;2023 <a class="font-14" href="#">Techphany</a>. All Rights Reserved</p>
         </div>
       </div>
-    </footer>
-
+    </div>
+  </footer>
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- end wrapper -->
 
-<script src="../js/custom.js"></script>
-
 <!-- Footer Scripts -->
 
-<!-- <script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="../s/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="../js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script> -->
 
-<!-- JS | Custom script for all pages -->
+
+<!-- Footer Scripts -->
+<script src="js/custom.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+      (Load Extensions only on Local File Systems ! 
+       The following part can be removed on Server for On Demand Loading) -->
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+
 <!-- JS | Custom script for all pages -->
 <script>
   function myFunction() {
