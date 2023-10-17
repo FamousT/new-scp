@@ -6704,12 +6704,6 @@ License: http://codecanyon.net/licenses
     display: block;
     position: relative;
   }
-
-  .menuzord-menu > li {
-    display: none;
-    float: left;
-  }
-  
   .menuzord-responsive .menuzord-menu > li > a {
     width: 100%;
     padding: 12px 20px;
