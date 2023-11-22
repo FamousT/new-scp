@@ -6614,7 +6614,15 @@ blockquote p {
     font-weight: 600;
   }
   
+
+
+
+.team-zoom{
+  transition: transform .1s;/* Animation */
 }
 
-
-
+.team-zoom:hover{
+  transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  padding-bottom: 20px;
+  text-decoration:underline;
+}
