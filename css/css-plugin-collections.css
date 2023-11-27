@@ -6427,7 +6427,7 @@ License: http://codecanyon.net/licenses
   clear: both;
   width: 100%;
   border: 0 none;
-  font-size: 12px;
+  font-size: 15px;
   position: relative;
 }
 .menuzord-menu ul.dropdown li a {
@@ -6437,7 +6437,7 @@ License: http://codecanyon.net/licenses
   color: #333333;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   display: inline-block;
   float: left;
   clear: both;

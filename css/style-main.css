@@ -20,7 +20,7 @@ URL:            http://themeforest.net/user/ThemeMascot
 
 @font-face {
   font-family: helvetica;
-  src: url(../fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
+  src: url(../fonts/ProximaNova/ProximaNovaSemibold.otf);
 }
 /*
 This file contains the common styles of this theme.
@@ -92,7 +92,7 @@ This file contains the common styles of this theme.
  * -----------------------------------------------
 */
 ::selection {
-  background: #333333;
+  background: #4b4b4b;
   color: #fff;
   text-shadow: none;
 }
@@ -114,8 +114,9 @@ This file contains the common styles of this theme.
 }
 body {
   line-height: 1.7;
-  color: #2e2e2e;
-  font-size: 18px;
+  color: #505050;
+  font-size: 20px;
+  font-weight: 500;
   font-family: 'helvetica';
   background-color: #fff;
   background-attachment: fixed;
@@ -149,19 +150,19 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 26px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 19px;
 }
 h5,
 .h5 {
-  font-size: 15px;
+  font-size: 17px;
 }
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 14px;
 }
 h1,
 h2,
@@ -176,7 +177,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'helvetica';
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.42857143;
   color: #333333;
 }
@@ -246,13 +247,13 @@ form {
 }
 /* -------- Custom Font Family ---------- */
 .font-raleway {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'helvetica';
 }
 .font-opensans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'helvetica';
 }
 .font-Playfair {
-  font-family: 'Playfair Display', serif;
+  font-family: 'helvetica';
 }
 /* breadcrumb */
 .breadcrumb {
@@ -1548,8 +1549,8 @@ section > .container-fluid {
 }
 /* -------- Menuzord ---------- */
 .menuzord-menu > li > a {
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
 }
 .menuzord .menuzord-menu > li.active > a i,
 .menuzord .menuzord-menu > li:hover > a i,
@@ -5409,8 +5410,8 @@ blockquote p {
   text-align: right;
 }
 .section-title.icon-bg p {
-  font-size: 15px;
-  font-style: italic;
+  font-size: 18px;
+  /* font-style: italic; */
   margin-bottom: 0;
 }
 .section-title.icon-bg .page-title {
@@ -6623,6 +6624,63 @@ blockquote p {
 
 .team-zoom:hover{
   transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  padding-bottom: 20px;
-  text-decoration:underline;
+  
+}
+
+
+
+/* Undeline effects in teams */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after, .hover-underline-animation h3:after  {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #e74726;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  text-decoration: underline;
+
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  text-decoration: underline;
+}
+
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter{
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
