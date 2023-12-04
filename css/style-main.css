@@ -6692,3 +6692,12 @@ blockquote p {
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
+
+
+@media only screen and (max-width: 900px) {
+  .col-md-3{
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+}
