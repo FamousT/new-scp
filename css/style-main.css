@@ -20,6 +20,7 @@ URL:            http://themeforest.net/user/ThemeMascot
 
 @font-face {
   font-family: helvetica;
+  /* src: url(../fonts/ProximaNova/ProximaNovaSemibold.otf); */
   src: url(../fonts/ProximaNova/ProximaNovaSemibold.otf);
 }
 
