@@ -6709,12 +6709,15 @@ blockquote p {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1192px) {
   .attorney .content .detail{
     margin-top: 280px;
   }
   .selectedMatters{
     display: none;
+  }
+  .menuzord-menu li{
+    display:none;
   }
 
 }
