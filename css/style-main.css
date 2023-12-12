@@ -4748,7 +4748,7 @@ blockquote p {
   border: 2px solid #d5d5d5;
 }
 .social-icons.icon-dark a {
-  background-color: #111111;
+  background-color: #333;
   color: #fff;
   display: block;
   font-size: 18px;
@@ -6699,7 +6699,7 @@ blockquote p {
 
 
 @media screen and (min-width: 1200px) {
-  .attorney .content{
+  .attorney .content .detail{
     margin-top: 10px;
   }
 
@@ -6710,7 +6710,7 @@ blockquote p {
 
 
 @media screen and (max-width: 992px) {
-  .attorney .content{
+  .attorney .content .detail{
     margin-top: 280px;
   }
   .selectedMatters{
@@ -6720,7 +6720,7 @@ blockquote p {
 }
 
 @media screen and (max-width: 600px) {
-  .attorney .content{
+  .attorney .content .detail{
     margin-top: 10px;
   }
   .selectedMatters{
