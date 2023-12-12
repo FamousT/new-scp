@@ -5808,8 +5808,8 @@ blockquote p {
 .panel-group .panel-title a {
   background: #f1f1f1;
   display: block;
-  font-size: 18px;
-  padding: 10px 15px 10px 48px;
+  font-size: 20px;
+  padding: 5px 15px 10px 48px;
   white-space: normal;
 }
 .panel-group .panel-title a.active {
@@ -6695,10 +6695,56 @@ blockquote p {
 }
 
 
-@media only screen and (max-width: 900px) {
-  .col-md-3{
-    padding-right: 0;
-    padding-left: 0;
+
+
+
+@media screen and (min-width: 1200px) {
+  .attorney .content{
+    margin-top: 10px;
   }
 
+  .selectedMatters2{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .attorney .content{
+    margin-top: 280px;
+  }
+  .selectedMatters{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .attorney .content{
+    margin-top: 10px;
+  }
+  .selectedMatters{
+    display: none;
+  }
+
+}
+
+
+.attorney-info p{
+  text-align: justify;
+}
+
+@media only screen and (min-width: 1200px) {
+  .attorney-info p{
+    padding: 50px;
+  }
+}
+
+.selectedMatters p{
+  text-align: justify;
+}
+
+
+.bottom-banner{
+  background-color: rgb(221, 221, 221);
 }
