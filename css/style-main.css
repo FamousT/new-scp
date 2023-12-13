@@ -6719,15 +6719,22 @@ blockquote p {
   .menuzord-menu li{
     display:none;
   }
+  .about-image .img-fullwidth{
+    display: none;
+  }
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .attorney .content .detail{
     margin-top: 10px;
   }
   .selectedMatters{
     display: none;
+  }
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }
