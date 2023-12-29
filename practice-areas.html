@@ -39,11 +39,7 @@
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
-
-<!-- Revolution Slider 5.x CSS settings -->
-<link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
-<link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
-<link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <!-- external javascripts -->
 <script src="js/jquery-2.2.0.min.js"></script>
@@ -211,10 +207,9 @@
         <div class="section-content text-center">
           <div class="row"> 
             <div class="col-md-6 col-md-offset-3 text-center">
-              <h2 class="text-theme-colored font-36">Expertise</h2>
-              <h4 class="text-white mt-20">Goal-Oriented Legal Services: Where Your Business Aspirations Take the Lead
+              <h2 class="text-white font-36">Expertise</h2>
+              <!-- <h4 class="text-white mt-20">Meet the Innovators Behind Your Legal Solutions. -->
               </h4>
-
             </div>
           </div>
         </div>
@@ -649,20 +644,13 @@
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
-
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) -->
-<!-- <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script> -->
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+	offset:300,
+	duration:1000
+	});
+  </script>
 
 </body>
 </html>

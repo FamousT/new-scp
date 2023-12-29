@@ -183,7 +183,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'helvetica';
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.42857143;
   color: #333333;
 }
@@ -6751,11 +6751,11 @@ blockquote p {
   }
 
   .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
-      height:500px
+      height:550px
   }
 
   .carousel-caption{
-    bottom: 20%;
+    bottom: 25%;
   }
 
 }

@@ -29,6 +29,10 @@
 <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
 <!-- CSS | Main style file -->
 <link href="css/style-main.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <link href="css/sliderLink.css" rel="stylesheet" type="text/css">
 
 <!-- CSS | Theme Color -->
@@ -36,9 +40,9 @@
 <!-- CSS | Custom Margin Padding Collection -->
 <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
-<link href="css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+<link href="text-animation/style.css" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
 <script src="js/jquery-2.2.0.min.js"></script>
@@ -210,29 +214,29 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img class="bghome" src="images/background/bg-home.jpg" alt="...">
+                  <img class="bghome" src="images/background/bg-home5.jpg" alt="...">
                   <div class="carousel-caption">
-                    <h1 class="" style="font-size: 40px;">Strategic. Client-Centered</h1>
+                    <h1 class="wobble" data-animation="xspin" style="font-size: 40px; font-weight: 600;">Strategic. Client - Centered</h1>
                     <p class="text-black">A Nigerian law firm dedicated to providing exceptionally <br/> sound and excellent legal
                        advice to clients.</p>
                     <!-- <a href="#" class="btn btn-dark btn-theme-colored btn-circled btn-lg">Read More</a> -->
                     <div class="pub">
                       <ul>
-                        <li class="home-link"><a href="/our-story.html"> Read more >></a></li>
+                        <li><a href="/our-story.html"> Read more >></a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <div class="item">
-                  <img class="bghome" src="images/background/bg-home4.jpg" class="bg-homeee" alt="...">
+                  <img class="bghome" src="images/background/bg-home.jpg" class="bg-homeee" alt="...">
                    <div class="carousel-caption">
-                    <h1 class="font-36">Strategic. Client-Centered</h1>
+                    <h1 class="wobble" data-animation="upscale" style="font-size: 40px; font-weight: 600;">Goal - Oriented Legal Services</h1>
                     <p class="text-black">A Nigerian law firm dedicated to providing exceptionally <br/> sound and excellent legal
                        advice to clients.</p>
                     <!-- <a href="#" class="btn btn-dark btn-theme-colored btn-circled btn-lg">Read More</a> -->
                     <div class="pub">
                       <ul>
-                        <li><a href="/practice-area/"> Our expertise >></a></li>
+                        <li><a href="/practice-areas.html"> Our expertise >></a></li>
                       </ul>
                     </div>
                   </div>
@@ -257,11 +261,11 @@
     <!-- Section: home -->
     <section id="home" class="divider">
       <div class="container">
-        <div class="section-title title-border title-left icon-bg mb-0">
+        <div class="section-title title-border title-left icon-bg mb-0 mt-50">
           <div class="row">
             <div class="col-md-12">
               <!-- <h6 class="mt-0 mb-0 text-theme-colored">SimmonsCooper Partners </h6> -->
-              <h2 class="mt-0 page-title"><i class="fa fa-edit"></i>About Us</h2>
+              <h2 class="mt-0 page-title wobble" data-animation="upscale"><i class="fa fa-edit"></i>About Us</h2>
             </div>
           </div>
         </div>
@@ -276,11 +280,11 @@
                 <span>Multi-jurisdictional capabilities </span>
                 <span>Internationally acclaimed</span>
               </span>
-            </h1>
+            </h1><br/>
           </div>
           </div>
-          <div class="col-md-7">
-              <p class="home-text text-justify">
+          <div class="col-md-7 wow fadeInUp" data-wow-delay="0.4s">
+              <p class="home-text text-justify pt-20">
                 SCP's approach is built on pillars of quality, transparency, creativity, and innovation, enabling us to devise powerful solutions to complex legal challenges, always adhering to the highest ethical principles. Our significant successes in complex transactions and precedent-setting cases validate our pledge to keep clients ahead with our dedicated and proactive approach.
               </p>
               <div class="pub">
@@ -306,38 +310,36 @@
           <div class="row">
             <div class="col-md-12">
               <!-- <h6 class="mt-0 mb-0 text-theme-colored">SimmonsCooper Partners </h6> -->
-              <h2 class="mt-0 page-title"><i class="fa fa-edit"></i>Expertise</h2>
+              <h2 class="mt-0 page-title wobble" data-animation="xspin"><i class="fa fa-edit"></i>Expertise</h2>
             </div>
           </div>
         </div>
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="expertise">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="expertise wow fadeInUp" data-wow-delay="0.5s">
             <ul>
               <li><a href="practice-area/alternative-dispute-resolution.html"> Alternative Dispute Resolution</a></li>
               <li><a href="practice-area/commercial-civil-litigation.html"> Commercial and Civic Litigation</a></li>
               <li><a href="practice-area/competition-law.html"> Competition Law</a></li>
               <li><a href="practice-area/corporate-commercial-finance.html"> Corporate Commercial and Finance</a></li>
               <li><a href="practice-area/energy.html"> Energy</a></li>
-              <li><a href="practice-area/environmental-social-governance.html"> Environmental, Social and Governance</a></li>
 
             </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="expertise">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="expertise wow fadeInUp" data-wow-delay="0.7s">
             <ul>
+              <li><a href="practice-area/environmental-social-governance.html"> Environmental, Social and Governance</a></li>
               <li><a href="practice-area/family-wealth-management.html"> Family and Wealth Management</a></li>
               <li><a href="practice-area/international-trade.html"> International Law</a></li>
               <li><a href="practice-area/labour-employment.html"> Labour and Employment</a></li>
               <li><a href="practice-area/media-technology.html"> Media and Technology</a></li>
-              <li><a href="practice-area/mergers-acquisitions.html"> Merger and Acquisition</a></li>
-              <li><a href="practice-area/projects-transport.html"> Projects and Transport</a></li>
 
             </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div class="expertise ">
             <ul>
               <li><a href="practice-area/public-finance.html">Public Finance</a></li>
@@ -348,8 +350,10 @@
               <li><a href="practice-area/taxation.html">Taxation</a></li>
             </ul>
           </div>
-        </div>
-        </div>
+        </div> -->
+        </div><br/>
+        <a href="practice-areas.html" class="btn btn-dark btn-theme-colored btn-flat btn-lg hvr-sweep-to-right">View All Expertise</a>
+
       </div>
       </div>
     </section>
@@ -362,50 +366,50 @@
   <section>
     <div class="container pb-0">
       <div class="section-title title-border title-left icon-bg mb-50">
-        <div class="row">
+        <div class="row ">
           <div class="col-md-12">
             <!-- <h6 class="mt-0 mb-0 text-theme-colored">SimmonsCooper Partners </h6> -->
-            <h2 class="mt-0 page-title"><i class="fa fa-edit"></i>Insights</h2>
+            <h2 class="mt-0 page-title wobble" data-animation="upscale"><i class="fa fa-edit"></i>Insights</h2>
           </div>
         </div>
       </div>
        <div class="row">
         <div class="col-md-12">
           <div class="owl-carousel">
-            <div class="item team-zoom p-10"><img src="images/insights/arbitration.jpg" alt="">
+            <div class="item team-zoom p-10 wow fadeInUp" data-wow-delay="0.2s"><img src="images/insights/arbitration.jpg" alt="">
               <ul class="entry-meta list-inline font-12 pt-20">
                 <li><span class="text-theme-colored">May 5th, 2023</span></li>
               </ul>
-              <h4>The Arbitration and Mediation Act, 2023</h4>
+              <h4 class="hover-underline-animation">The Arbitration and Mediation Act, 2023</h4>
 
             </div>
-            <div class="item team-zoom p-10"><img src="images/insights/stamp duty.jpg" alt="">
+            <div class="item team-zoom p-10 wow fadeInUp" data-wow-delay="0.3s"><img src="images/insights/stamp duty.jpg" alt="">
               <ul class="entry-meta list-inline font-12 pt-20">
                 <li><span class="text-theme-colored">May 5th, 2023</span></li>
               </ul>
-              <h4>Mortgage Transactions and Stamp Duties</h4></div>
-            <div class="item team-zoom p-10"><img src="images/insights/custom.jpg" alt="">
+              <h4 class="hover-underline-animation">Mortgage Transactions and Stamp Duties</h4></div>
+            <div class="item team-zoom p-10 wow fadeInUp" data-wow-delay="0.4s"><img src="images/insights/custom.jpg" alt="">
               <ul class="entry-meta list-inline font-12 pt-20">
                 <li><span class="text-theme-colored">May 5th, 2023</span></li>
               </ul>
-              <h4>Customs and Excise Management Act</h4></div>
-            <div class="item team-zoom p-10"><img src="images/insights/living trust.jpg" alt="">
+              <h4 class="hover-underline-animation">Customs and Excise Management Act</h4></div>
+            <div class="item team-zoom p-10 wow fadeInUp" data-wow-delay="0.5s"><img src="images/insights/living trust.jpg" alt="">
               <ul class="entry-meta list-inline font-12 pt-20">
                 <li><span class="text-theme-colored">May 5th, 2023</span></li>
               </ul>
-            <h4>A Compact Guide to Living Trusts </h4>
+            <h4 class="hover-underline-animation">A Compact Guide to Living Trusts </h4>
           </div>
-            <div class="item team-zoom p-10"><img src="images/insights/renewable energy.jpg" alt="">
+            <div class="item team-zoom p-10 wow fadeInUp" data-wow-delay="0.6s"><img src="images/insights/renewable energy.jpg" alt="">
               <ul class="entry-meta list-inline font-12 pt-20">
                 <li><span class="text-theme-colored">May 5th, 2023</span></li>
               </ul>
-            <h4>Scope for Renewable Energy in Nigeria</h4>
+            <h4 class="hover-underline-animation">Scope for Renewable Energy in Nigeria</h4>
           </div>
-            <div class="item team-zoom p-10"><img src="images/insights/civil litigation.jpg" alt="">
+            <div class="item team-zoom p-10 wow fadeInUp" data-wow-delay="0.7s"><img src="images/insights/civil litigation.jpg" alt="">
               <ul class="entry-meta list-inline font-12 pt-20">
                 <li><span class="text-theme-colored">May 5th, 2023</span></li>
               </ul>
-            <h4>Commercial and Civil Litigation Cluster Guide</h4>
+            <h4 class="hover-underline-animation">Commercial and Civil Litigation Cluster Guide</h4>
           </div>
             
           </div>
@@ -454,9 +458,8 @@
               <ul class="list-icon theme-colored">
                 <li><i class="fa fa-envelope"></i>info@scp-law.com</p></li>
                 <li><i class="fa fa-phone"></i>+234 701 140 4511, +234 903 071 0071</li>
-                <li><i class="fa fa-location-arrow"></i>9 Rima Street Maitama, Abuja.</li>
-                <li><i class="fa fa-location-arrow"></i>9th Floor, Fortune Towers 27/29, Adeyemo Alakija Street, Lagos, Nigeria</li>
-                <!-- <li style="padding-left:40px"></li> -->
+                <li><i class="fa fa-location-arrow"></i><b>Abuja Office: </b> 9 Rima Street, Maitama, Abuja.</li>
+                <li><i class="fa fa-location-arrow"></i><b>Head Office: </b> 9th Floor, Fortune Towers 27/29, Adeyemo Alakija Street, Lagos, Nigeria</li>
 
               </ul>
           </div>
@@ -516,20 +519,15 @@
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
 <script src="js/script.js"></script>
+<script src="text-animation/script.js"></script>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
-      (Load Extensions only on Local File Systems ! 
-       The following part can be removed on Server for On Demand Loading) -->
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+	offset:300,
+	duration:1200
+	});
+  </script>
 
 </body>
 </html>
